@@ -9,8 +9,11 @@ Amazon EC2의 네트워킹 계층
 - 인터넷 게이트웨이 - VPC의 리소스와 인터넷 간의 통신을 활성화하기 위해 VPC에 연결하는 게이트웨이
 - VPC 엔드포인트 - PrivateLink 구동 지원 AWS 서비스 및 VPC 엔드포인트 서비스에 VPC를 비공개로 연결할 수 있습니다. VPC의 인스턴스는 서비스의 리소스와 통신하는 데 퍼블릭 IP 주소를 필요로 하지 않습니다. VPC와 기타 서비스 간의 트래픽은 Amazon 네트워크를 벗어나지 않습니다.
 
-## [작동 방식](https://docs.aws.amazon.com/ko_kr/vpc/latest/userguide/how-it-works.html)
+가격 - VPC 사용에 따르는 추가 요금은 없다. Site-to-Site VPN 연결, PrivateLink, 트래픽 미러링 및 NAT 게이트웨이 사용에 대한 요금이 부과됩니다.
 
+프로비저닝할 수 있는 Amazon VPC 구성 요소의 수에는 할당량이 있다.
+## [작동 방식](https://docs.aws.amazon.com/ko_kr/vpc/latest/userguide/how-it-works.html)
+사용자가 정의한 가상 네트워크로 AWS 리소스를 시작할 수 있다. 
 
 
 ## [퍼블릭 서브넷과 프라이빗 서브넷](https://docs.aws.amazon.com/ko_kr/vpc/latest/userguide/VPC_Scenario2.html)
